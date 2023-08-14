@@ -38,8 +38,12 @@ input {
 #login-form input {
   border: none;
   font-size: 16px;
-  border-bottom: 1px solid #bbb;
   padding: 16px 0;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid #bbb;
   transition: border-color 0.3s ease-in-out;
 }
 
@@ -52,5 +56,15 @@ input {
 }
 
 #login-form input[type="submit"] {
-  margin-top: 30px;
+  margin: 38px 0 20px 0;
+  background-color: var(--yellow);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: #999;
+  font-size: 13px;
 }
