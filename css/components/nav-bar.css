@@ -12,3 +12,36 @@
   display: flex;
   justify-content: space-between;
 }
+
+.nav__btn {
+  position: relative;
+}
+
+.nav__notification {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  font-size: 10px;
+  align-items: center;
+  color: #fff;
+  background-color: tomato;
+  width: auto;
+  min-width: 16px;
+  box-sizing: border-box;
+  padding: 0 6px;
+  height: 16px;
+  border-radius: 10px;
+  left: 10px;
+  top: -7px;
+}
+
+.nav__update {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: tomato;
+  position: absolute;
+  top: -1px;
+  right: -3px;
+}
