@@ -1,70 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;600&display=swap");
 @import "reset.css";
 @import "variables.css";
-@import "status-bar.css";
+@import "welcome.css";
 body {
   font-family: "Outfit", sans-serif;
 }
 
 input {
   font-family: "Outfit", sans-serif;
-}
-
-.welcome-header {
-  margin: 95px 0;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.welcome-header__title {
-  margin-bottom: 40px;
-  font-size: 25px;
-}
-
-.welcome-header__text {
-  width: 80%;
-  line-height: 1.3;
-  color: #777;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  margin: 0 30px;
-}
-
-#login-form input {
-  border: none;
-  font-size: 16px;
-  padding: 16px 0;
-  transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input:not([type="submit"]) {
-  border-bottom: 1px solid #bbb;
-  transition: border-color 0.3s ease-in-out;
-}
-
-#login-form input:focus {
-  border-color: var(--yellow);
-}
-
-#login-form input::placeholder {
-  color: #999;
-}
-
-#login-form input[type="submit"] {
-  margin: 38px 0 20px 0;
-  background-color: var(--yellow);
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-#login-form a {
-  text-align: center;
-  text-decoration: none;
-  color: #999;
-  font-size: 13px;
 }
