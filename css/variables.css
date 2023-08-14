@@ -1,3 +1,12 @@
 :root {
+  /*colors*/
   --yellow: #fae100;
+  --red: tomato;
+  --black: #2e363e;
+  --gray: #999;
+  --very-light-gray: #fafafa;
+  --light-gray: #e4e4e4;
+  --semi-light-gray: #d5d5d5;
+  /*sizes*/
+  --horizontal-padding: 16px;
 }
