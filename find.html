@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>find - Kokoa Talk</title>
+    <title>Find - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,7 +23,7 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">find</h1>
+      <h1 class="screen-header__title">Find</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-1x"> </i></span>
         <!-- <span><i class="fas fa-comment-dots"></i></span>
@@ -33,24 +33,78 @@
     </header>
 
     <main class="main-screen">
-      <div class="find-icons">
-        <div class="find-icons__icon">
+      <div class="kt-icons">
+        <div class="kt-icons__icon">
           <i class="fas fa-qrcode"></i>
           <span>QR Code</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="kt-icons__icon">
           <i class="fas fa-address-book"></i>
           <span>Add by Contacts</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="kt-icons__icon">
           <i class="fas fa-fingerprint"></i>
           <span>Add by ID</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="kt-icons__icon">
           <i class="fas fa-envelope"></i>
           <span>Invite</span>
         </div>
       </div>
+      <!--e:.kt-icons-->
+      <div class="screen-subtitle">
+        <div class="screen-subtitle__header">
+          <span>Recommended Friends</span>
+        </div>
+      </div>
+      <!--e:.screen-subtitle-->
+      <div class="screen-content">
+        <span class="screen-content__content--no-content">
+          You have no recommended friends.
+        </span>
+      </div>
+      <!--e:.screen-subcontent-->
+      <div class="screen-subtitle">
+        <div class="screen-subtitle__header">
+          <span> Open Chat </span>
+          <span>
+            Go to Openchat Home
+            <i
+              class="fas fa-chevron-right fa-xs screen-subtitle__header__goto-icon"
+            ></i>
+          </span>
+        </div>
+      </div>
+      <div class="screen-content">
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__tags">
+              <i>#bts</i>
+              <i>#army</i>
+              <i>#friends</i>
+            </h6>
+            <div class="open-post__members">
+              <img src="img/linojung-profile.jpg" alt="member-pic" />
+              <span class="open-post__members-count">802 members</span>
+              <i
+                class="open-post__members-status open-post__members-status--active"
+                >Active</i
+              >
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__pic">
+              <img src="img/bts.jpg" alt="open-post-pic" />
+              <div class="open-post__pic__like-count">
+                <i class="fas fa-heart"></i>
+                <span>342</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--e:.screen-content-->
     </main>
 
     <nav class="nav">

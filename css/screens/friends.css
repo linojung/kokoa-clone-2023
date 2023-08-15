@@ -15,15 +15,3 @@
 .friends-display-link span {
   margin-left: 6px;
 }
-
-.friends-screen__channel {
-  border-top: 1px solid var(--light-gray);
-  padding: 10px 0;
-  font-size: 13px;
-}
-
-.friends-screen__channel-header {
-  display: flex;
-  justify-content: space-between;
-  color: var(--gray);
-}

@@ -16,6 +16,12 @@
   position: relative;
 }
 
+.nav__notification {
+  position: absolute;
+  top: -10px;
+  left: 8px;
+}
+
 .nav__link {
   color: var(--gray);
 }
