@@ -7,11 +7,16 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
 /*Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
 
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "Outfit", sans-serif;
   margin-top: 22px;
@@ -29,7 +34,7 @@ input {
 
 .screen-subtitle {
   border-top: 1px solid var(--light-gray);
-  padding: 12px 0;
+  padding: 13px 0 15px 0;
   font-size: 14px;
 }
 
@@ -43,39 +48,13 @@ input {
   display: inline-block;
   margin-left: 2px;
 }
-.kt-icons {
-  padding: 20px 0 28px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.kt-icons__icon {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: center;
-  justify-content: top;
-  text-align: center;
-}
-
-.kt-icons__icon i {
-  font-size: 25px;
-  margin-bottom: 16px;
-}
-
-.kt-icons__icon span {
-  min-height: 32px;
-  display: flex;
-  align-items: center;
-}
 
 .screen-content {
 }
 
 .screen-content__content--no-content {
   display: flex;
-  padding: 100px 0 130px 0;
+  padding: 80px 0 98px 0;
   justify-content: center;
   align-items: center;
   color: var(--semi-light-gray);

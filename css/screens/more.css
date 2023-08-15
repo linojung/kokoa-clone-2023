@@ -1,0 +1,6 @@
+.more-screen .icon-row__icon span {
+  margin-top: 0;
+  min-height: 32px;
+  display: flex;
+  align-items: center;
+}
