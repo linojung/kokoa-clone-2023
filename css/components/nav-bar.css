@@ -29,11 +29,6 @@
 }
 
 .nav__update {
-  display: block;
-  width: 4px;
-  height: 4px;
-  border-radius: 4px;
-  background-color: tomato;
   position: absolute;
   top: -1px;
   right: -3px;
