@@ -22,14 +22,3 @@
 .nav__link--selected {
   color: var(--black);
 }
-.nav__notification {
-  position: absolute;
-  left: 10px;
-  top: -8px;
-}
-
-.nav__update {
-  position: absolute;
-  top: -1px;
-  right: -3px;
-}
