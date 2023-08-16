@@ -14,12 +14,13 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chatroom.css";
 * {
   box-sizing: border-box;
 }
 body {
   font-family: "Outfit", sans-serif;
-  margin-top: 22px;
+  padding-top: 22px;
   padding-bottom: 54px;
   color: var(--black);
 }
