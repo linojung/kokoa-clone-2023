@@ -13,18 +13,19 @@
 @import "screens/friends.css";
 @import "screens/find.css";
 @import "screens/more.css";
-
+@import "screens/settings.css";
 * {
   box-sizing: border-box;
 }
 body {
   font-family: "Outfit", sans-serif;
   margin-top: 22px;
-  height: 200vh;
+  padding-bottom: 54px;
   color: var(--black);
 }
 
 .main-screen {
+  position: relative;
   padding: 0 var(--horizontal-padding);
 }
 

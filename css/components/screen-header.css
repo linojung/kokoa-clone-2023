@@ -14,3 +14,25 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
+
+/*alternative header*/
+
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 var(--horizontal-padding);
+}
+
+.alt-header__column--left {
+  font-size: 24px;
+}
+.alt-header__column--middle {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.alt-header__column--right {
+  font-size: 21px;
+}
