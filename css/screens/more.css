@@ -4,3 +4,44 @@
   display: flex;
   align-items: center;
 }
+
+.more-suggestions__title {
+  border-top: 1px solid var(--light-gray);
+  padding-top: 25px;
+  font-size: 15px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+.app-icon {
+  margin-top: 25px;
+  padding: 0 10px;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 15px;
+  color: var(--gray);
+}
+
+.app-icon__pic {
+  margin-bottom: 7px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  border-radius: 13%;
+  border: 1px solid var(--very-light-gray);
+}
+.app-icon__pic img {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+
+.app-icon span {
+  height: 30px;
+}
