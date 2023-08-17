@@ -237,6 +237,7 @@
 .reply__column--text,
 .reply__column--text input,
 .reply__column--add {
+  transition-delay: 1s;
   transition: all 0.4s ease-in-out;
 }
 
