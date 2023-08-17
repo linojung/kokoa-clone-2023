@@ -1,6 +1,7 @@
 :root {
   /*colors*/
   --yellow: #fae100;
+  --kokoa-brown: #341c1c;
   --red: tomato;
   --pink: #ff63c3;
   --black: #2e363e;
@@ -13,4 +14,5 @@
   --chatroom-color: #a0b9c9;
   /*sizes*/
   --horizontal-padding: 20px;
+  --chatroom-padding: 12px;
 }

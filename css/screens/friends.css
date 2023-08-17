@@ -15,3 +15,29 @@
 .friends-display-link span {
   margin-left: 6px;
 }
+
+.splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  color: var(--kokoa-brown);
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  animation: hideSplashScreen 0.4s ease-out forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}

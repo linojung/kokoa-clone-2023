@@ -48,14 +48,18 @@
           <div class="message__info">
             <div class="message__info__row">
               <span class="message__bubble"> Hi! </span>
-              <i class="message__time">21:27</i>
+              <!-- <i class="message__status">
+                <strong class="message__time">22:27</strong>
+              </i> -->
             </div>
             <div class="message__info__row">
               <span class="message__bubble">
                 Sorry for the late call<br />
                 are you free now?
               </span>
-              <i class="message__time">21:28</i>
+              <i class="message__status">
+                <strong class="message__time">22:20</strong>
+              </i>
             </div>
           </div>
         </div>
@@ -63,8 +67,10 @@
       <div class="message-row message-row--own">
         <div class="message__info">
           <div class="message__info__row">
-            <span class="message__bubble"> What up? </span>
-            <i class="message__time">22:26</i>
+            <span class="message__bubble"> Sup? </span>
+            <i class="message__status">
+              <small class="message__read">1</small>
+            </i>
           </div>
           <div class="message__info__row">
             <span class="message__bubble">
@@ -73,7 +79,10 @@
               was planning to send you the explanation later... is it the one
               you need right now?
             </span>
-            <i class="message__time">22:27</i>
+            <i class="message__status">
+              <small class="message__read">1</small>
+              <strong class="message__time">22:27</strong>
+            </i>
           </div>
         </div>
       </div>
@@ -84,8 +93,8 @@
       </div>
       <div class="reply__column reply__column--text">
         <input type="text" placeholder="Write a message..." />
-        <i class="far fa-smile"></i>
-        <button><i class="fas fa-arrow-up"></i></button>
+        <i class="far fa-smile reply__emoticon"></i>
+        <button class="reply__send"><i class="fas fa-arrow-up"></i></button>
       </div>
     </form>
 
