@@ -8,6 +8,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 /*Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -36,8 +37,8 @@ input {
 
 .screen-subtitle {
   border-top: 1px solid var(--light-gray);
-  padding: 13px 0 15px 0;
-  font-size: 14px;
+  padding: 13px 0;
+  font-size: 13px;
 }
 
 .screen-subtitle__header {

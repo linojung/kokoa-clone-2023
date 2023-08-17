@@ -14,20 +14,22 @@
   color: var(--gray);
 }
 .user-component__avatar {
-  width: 65px;
-  height: 65px;
-  border-radius: 35%;
+  width: 55px;
+  height: 55px;
+  border-radius: 40%;
+  object-fit: cover;
   margin-right: 12px;
+  border: 1px solid var(--light-gray);
 }
 
 .user-component--xl .user-component__avatar {
-  width: 75px;
-  height: 75px;
+  width: 63px;
+  height: 63px;
 }
 
 .user-component--sm .user-component__avatar {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
 }
 
 .user-component--xl .user-component__title {
@@ -52,6 +54,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+}
+
+.user-component__column--time div {
+  height: 18px;
 }
 .user-component__column--time span {
   font-size: 12px;

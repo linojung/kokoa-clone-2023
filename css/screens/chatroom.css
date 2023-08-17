@@ -1,5 +1,6 @@
 .main-screen.chatroom-screen {
   padding: 0 var(--chatroom-padding);
+  overflow: hidden;
 }
 #chatroom-body {
   padding-top: 82px;
@@ -20,9 +21,23 @@
   width: 100%;
 }
 
+/* timestamp animation */
+@keyframes fadeInUp {
+  from {
+    transform: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+
 .chatroom__timestamp {
+  transform: translateY(8px);
+  opacity: 0;
   text-align: center;
   padding: 10px 0;
+  animation: fadeInUp 0.6s ease-in-out forwards;
 }
 
 .chatroom__timestamp > * {
@@ -36,14 +51,41 @@
   background-color: var(--z-black);
 }
 
+/* message-row animations */
+@keyframes fadeInLeft {
+  from {
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
 .message-row {
   width: 100%;
   display: flex;
   margin-bottom: 25px;
+  transform: translate(-16px);
+  opacity: 0;
+  animation: fadeInRight 0.8s ease-in-out forwards;
+  animation-delay: 0.4s;
 }
 
 .message-row--own {
   justify-content: flex-end;
+  transform: translateX(16px);
+  opacity: 0;
+  animation: fadeInLeft 0.8s ease-in-out forwards;
+  animation-delay: 0.8s;
 }
 
 .message-row__pic {
@@ -87,6 +129,7 @@
   margin-top: 8px;
   border-radius: 13px;
   max-width: 60vw;
+  font-size: 15px;
   line-height: 1.2;
 }
 
@@ -133,6 +176,10 @@
 }
 
 .reply__column--add {
+  width: calc(26px + var(--chatroom-padding));
+}
+
+.reply__column--add__button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +188,6 @@
   border-radius: 30%;
   width: 26px;
   height: 26px;
-  margin-right: var(--chatroom-padding);
 }
 
 .reply__column--text {
@@ -181,4 +227,45 @@
   height: 34px;
   border-radius: 50%;
   font-size: 15px;
+}
+
+/*reply input selected*/
+.reply,
+.reply__emoticon,
+.reply__send,
+.reply__column--add__button,
+.reply__column--text,
+.reply__column--text input,
+.reply__column--add {
+  transition: all 0.4s ease-in-out;
+}
+
+.reply:focus-within .reply__column--add,
+.reply:focus-within .reply__column--add__button,
+.reply:focus-within .reply__emoticon,
+.reply:focus-within .reply__send {
+  transform: translateY(-50px);
+}
+.reply:focus-within .reply__column--text {
+  transform: translateY(-60px);
+}
+.reply:focus-within {
+  transform: translateY(50px);
+}
+.reply:focus-within .reply__column--text {
+  width: 100%;
+  border: 1px solid var(--yellow);
+}
+.reply:focus-within .reply__column--text input {
+  height: 100%;
+}
+.reply:focus-within .reply__column--add {
+  width: 0;
+}
+.reply:focus-within .reply__column--add__button {
+  transform: translateX(-90px);
+}
+.reply:focus-within .reply__emoticon,
+.reply:focus-within .reply__send {
+  transform: translateX(90px);
 }

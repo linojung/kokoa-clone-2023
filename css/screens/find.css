@@ -47,6 +47,25 @@
   font-weight: 200;
 }
 
+@keyframes heartBeat {
+  0% {
+    transform: none;
+    color: #fff;
+  }
+  50% {
+    transform: scale(1.4);
+    color: var(--pink);
+  }
+  100% {
+    transform: none;
+    color: #fff;
+  }
+}
+.open-post__pic:hover .open-post__pic__like-count i {
+  will-change: transform;
+  animation: heartBeat 0.8s ease-in-out infinite;
+}
+
 .open-post__pic__like-count i {
   margin-right: 5px;
   font-size: 9px;
