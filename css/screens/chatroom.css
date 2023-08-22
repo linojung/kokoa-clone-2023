@@ -109,7 +109,7 @@
 .message__author {
   font-size: 14px;
   display: block;
-  color: var(--gray);
+  color: var(--dark-gray);
 }
 
 .message__info__row {
@@ -156,7 +156,7 @@
 
 .message__time {
   margin-top: 2px;
-  color: var(--dark-gray);
+  color: var(--gray);
 }
 
 .message__read {

@@ -6,14 +6,14 @@
   --pink: #ff63c3;
   --black: rgb(37, 32, 16);
   --gray: rgba(37, 32, 16, 0.5);
-  --dark-gray: rgba(37, 32, 16, 0.4);
+  --dark-gray: rgba(37, 32, 16, 0.7);
   --very-light-gray: rgba(37, 32, 16, 0.05);
   --light-gray: rgba(37, 32, 16, 0.1);
   --semi-light-gray: rgba(37, 32, 16, 0.2);
   --z-black: rgba(37, 32, 16, 0.1);
   --light-white: rgba(255, 255, 255, 0.8);
   --z-white: rgba(255, 255, 255, 0.1);
-  --chatroom-color: #a0b9c9;
+  --chatroom-color: RGB(151 234 208);
   /*sizes*/
   --horizontal-padding: 20px;
   --chatroom-padding: 12px;
