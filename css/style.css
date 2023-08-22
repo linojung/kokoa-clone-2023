@@ -24,6 +24,7 @@ body {
   padding-top: 22px;
   padding-bottom: 54px;
   color: var(--black);
+  background-color: var(--yellow);
 }
 
 .main-screen {

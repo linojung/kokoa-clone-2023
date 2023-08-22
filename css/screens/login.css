@@ -1,5 +1,7 @@
+body {
+  position: relative;
+}
 .welcome-header {
-  margin: 95px 0;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -7,23 +9,26 @@
 }
 
 .welcome-header__title {
-  margin-bottom: 40px;
+  margin: 50px 0 170px 0;
   font-size: 25px;
+  color: var(--magenta);
 }
 
 .welcome-header__text {
   width: 80%;
   line-height: 1.3;
-  color: #777;
 }
 
 #login-form {
+  padding: 28px var(--horizontal-padding);
   display: flex;
   flex-direction: column;
-  margin: 0 30px;
 }
 
 #login-form input {
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
   border: none;
   font-size: 16px;
   padding: 16px 0;
@@ -31,7 +36,8 @@
 }
 
 #login-form input:not([type="submit"]) {
-  border-bottom: 1px solid #bbb;
+  /* border-bottom: 1px solid #bbb; */
+  padding: 16px 16px;
   transition: border-color 0.3s ease-in-out;
 }
 
@@ -45,14 +51,27 @@
 
 #login-form input[type="submit"] {
   margin: 38px 0 20px 0;
-  background-color: var(--yellow);
+  background-color: var(--magenta);
   cursor: pointer;
+  color: #fff;
   border-radius: 5px;
 }
 
 #login-form a {
   text-align: center;
   text-decoration: none;
-  color: #999;
+  color: #fff;
   font-size: 13px;
+}
+
+.login-img {
+  position: absolute;
+  width: 100%;
+  top: 80px;
+  z-index: -10;
+  text-align: center;
+}
+
+.login-img img {
+  width: 80%;
 }
