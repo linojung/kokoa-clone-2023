@@ -4,13 +4,15 @@
   top: 0;
   left: 0;
   height: 100vh;
-  background-color: var(--yellow);
+  background: center / contain no-repeat url(../../img/no-mobile.gif);
+  background-color: #fff;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  color: var(--cheet-brown);
+  color: var(--black);
+  overflow: hidden;
 }
 
 @media screen and (max-width: 645px) {
