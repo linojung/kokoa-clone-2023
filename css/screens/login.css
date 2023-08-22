@@ -18,13 +18,23 @@ body {
 }
 
 .welcome-header__text {
-  margin-bottom: 160px;
   width: 80%;
   line-height: 1.3;
 }
 
+.login-img {
+  height: 197px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.login-img img {
+  width: 350px;
+}
+
 #login-form {
-  padding: 28px var(--horizontal-padding);
+  padding: 0 var(--horizontal-padding);
   display: flex;
   flex-direction: column;
 }
@@ -66,18 +76,6 @@ body {
   text-decoration: none;
   color: #524a2b;
   font-size: 13px;
-}
-
-.login-img {
-  position: absolute;
-  width: 100%;
-  top: 133px;
-  z-index: -10;
-  text-align: center;
-}
-
-.login-img img {
-  width: 80%;
 }
 
 .img-own {
