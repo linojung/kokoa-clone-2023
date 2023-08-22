@@ -9,9 +9,10 @@
   background-color: var(--chatroom-color);
 }
 
-#chatroom-body .status-bar {
+/* #chatroom-body .status-bar {
   background-color: var(--chatroom-color);
-}
+  color: var(--black);
+} */
 
 #chatroom-body .alt-header {
   background-color: var(--chatroom-color);

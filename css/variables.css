@@ -13,7 +13,7 @@
   --z-black: rgba(37, 32, 16, 0.1);
   --light-white: rgba(255, 255, 255, 0.8);
   --z-white: rgba(255, 255, 255, 0.1);
-  --chatroom-color: RGB(151 234 208);
+  --chatroom-color: rgba(219, 184, 206);
   /*sizes*/
   --horizontal-padding: 20px;
   --chatroom-padding: 12px;
