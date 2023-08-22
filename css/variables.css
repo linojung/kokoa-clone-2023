@@ -5,12 +5,14 @@
   --red: tomato;
   --pink: #ff63c3;
   --black: rgb(37, 32, 16);
-  --gray: #999;
-  --dark-gray: rgba(0, 0, 0, 0.4);
-  --very-light-gray: #fafafa;
-  --light-gray: #e4e4e4;
-  --semi-light-gray: #d5d5d5;
-  --z-black: rgba(0, 0, 0, 0.1);
+  --gray: rgba(37, 32, 16, 0.5);
+  --dark-gray: rgba(37, 32, 16, 0.4);
+  --very-light-gray: rgba(37, 32, 16, 0.05);
+  --light-gray: rgba(37, 32, 16, 0.1);
+  --semi-light-gray: rgba(37, 32, 16, 0.2);
+  --z-black: rgba(37, 32, 16, 0.1);
+  --light-white: rgba(255, 255, 255, 0.8);
+  --z-white: rgba(255, 255, 255, 0.1);
   --chatroom-color: #a0b9c9;
   /*sizes*/
   --horizontal-padding: 20px;

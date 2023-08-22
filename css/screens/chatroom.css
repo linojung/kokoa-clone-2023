@@ -47,7 +47,7 @@
   border-radius: 14px;
   padding: 0 15px;
   font-size: 12px;
-  color: var(--very-light-gray);
+  color: var(--light-white);
   background-color: var(--z-black);
 }
 
@@ -109,7 +109,7 @@
 .message__author {
   font-size: 14px;
   display: block;
-  color: var(--dark-gray);
+  color: var(--gray);
 }
 
 .message__info__row {
@@ -207,7 +207,7 @@
   height: 100%;
   width: calc(100% - (37px + 10px + 23px + var(--chatroom-padding) + 5px));
   border: none;
-  background-color: var(--very-light-gray);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .reply input[type="text"]::placeholder {
@@ -249,6 +249,7 @@
 }
 .reply:focus-within .reply__column--text {
   transform: translateY(-60px);
+  background-color: #fff;
 }
 .reply:focus-within {
   transform: translateY(50px);

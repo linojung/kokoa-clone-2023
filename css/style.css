@@ -20,6 +20,8 @@
   box-sizing: border-box;
 }
 body {
+  min-height: 100vh;
+  position: relative;
   font-family: "Outfit", sans-serif;
   padding-top: 22px;
   padding-bottom: 54px;

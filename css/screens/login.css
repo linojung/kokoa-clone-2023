@@ -79,3 +79,13 @@ body {
 .login-img img {
   width: 80%;
 }
+
+.img-own {
+  padding: 0 var(--horizontal-padding);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: var(--gray);
+}

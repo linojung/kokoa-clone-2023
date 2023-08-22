@@ -29,7 +29,11 @@
   width: 100vw;
   height: 100vh;
   animation: hideSplashScreen 0.4s ease-out forwards;
-  animation-delay: 0.5s;
+  animation-delay: 0.7s;
+}
+
+.splash-screen img {
+  width: 450px;
 }
 
 @keyframes hideSplashScreen {
@@ -40,4 +44,29 @@
     opacity: 0;
     display: none;
   }
+}
+
+.sign-out {
+  position: absolute;
+  right: var(--horizontal-padding);
+  bottom: calc(54px + var(--horizontal-padding));
+  color: var(--magenta);
+  text-align: center;
+}
+
+.sign-out span {
+  font-size: 12px;
+  display: block;
+  margin-top: 5px;
+}
+
+.sign-out a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
 }

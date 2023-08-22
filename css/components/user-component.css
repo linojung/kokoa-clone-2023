@@ -19,7 +19,7 @@
   border-radius: 40%;
   object-fit: cover;
   margin-right: 12px;
-  border: 1px solid var(--light-gray);
+  border: 1px solid var(--z-black);
 }
 
 .user-component--xl .user-component__avatar {
