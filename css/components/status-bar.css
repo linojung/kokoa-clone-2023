@@ -8,8 +8,8 @@
   justify-content: center;
   padding: 5px 3px;
   font-size: 12px;
-  background-color: var(--yellow);
-  color: var(--black);
+  background-color: var(--magenta);
+  color: #fff;
 }
 
 .status-bar__column {
