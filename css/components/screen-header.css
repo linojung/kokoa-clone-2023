@@ -10,6 +10,7 @@
   font-size: 25px;
   font-weight: 600;
   color: var(--peach);
+  font-family: var(--hand-writing);
 }
 
 .screen-header__icons span {
