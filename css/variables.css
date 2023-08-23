@@ -1,20 +1,24 @@
 :root {
   /*colors*/
   --yellow: #fdd344;
-  --magenta: #982298;
+  --peach: rgb(254, 131, 132);
   --red: tomato;
   --pink: #ff63c3;
-  --black: rgb(37, 32, 16);
-  --gray: rgba(37, 32, 16, 0.5);
-  --dark-gray: rgba(37, 32, 16, 0.7);
-  --very-light-gray: rgba(37, 32, 16, 0.05);
-  --light-gray: rgba(37, 32, 16, 0.1);
-  --semi-light-gray: rgba(37, 32, 16, 0.2);
-  --z-black: rgba(37, 32, 16, 0.1);
+  --blue: rgb(33, 168, 213);
+  --black: rgb(13, 34, 52);
+  --gray: rgba(13, 34, 52, 0.5);
+  --dark-gray: rgba(13, 34, 52, 0.7);
+  --very-light-gray: rgba(13, 34, 52, 0.05);
+  --light-gray: rgba(13, 34, 52, 0.1);
+  --semi-light-gray: rgba(13, 34, 52, 0.2);
+  --z-black: rgba(13, 34, 52, 0.1);
+  --white: #fefcfe;
   --light-white: rgba(255, 255, 255, 0.8);
   --z-white: rgba(255, 255, 255, 0.1);
   --chatroom-color: rgba(219, 184, 206);
   /*sizes*/
   --horizontal-padding: 20px;
   --chatroom-padding: 12px;
+  /*fonts*/
+  --hand-writing: "Caveat Brush", cursive;
 }

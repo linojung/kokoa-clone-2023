@@ -13,24 +13,33 @@ body {
 
 .welcome-header__title {
   margin: 50px 0 25px 0;
-  font-size: 20px;
-  color: var(--magenta);
+
+  color: var(--peach);
+}
+
+.welcome-header__title em {
+  display: block;
+  margin-top: 3px;
+  font-size: 30px;
+  font-family: var(--hand-writing);
 }
 
 .welcome-header__text {
   width: 80%;
-  line-height: 1.3;
+  line-height: 1.2;
+  font-size: 14px;
 }
 
 .login-img {
-  height: 197px;
+  padding: 15px 0;
+  height: 150px;
   width: 100%;
   overflow: hidden;
   text-align: center;
 }
 
 .login-img img {
-  width: 350px;
+  height: 100%;
 }
 
 #login-form {
@@ -50,13 +59,13 @@ body {
 }
 
 #login-form input:not([type="submit"]) {
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--light-gray);
   padding: 16px 16px;
   transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input:focus {
-  border-color: var(--magenta);
+  border-color: var(--blue);
 }
 
 #login-form input::placeholder {
@@ -65,7 +74,7 @@ body {
 
 #login-form input[type="submit"] {
   margin: 38px 0 20px 0;
-  background-color: var(--magenta);
+  background-color: var(--peach);
   cursor: pointer;
   color: #fff;
   border-radius: 5px;
@@ -74,7 +83,7 @@ body {
 #login-form a {
   text-align: center;
   text-decoration: none;
-  color: #524a2b;
+  color: var(--gray);
   font-size: 13px;
 }
 
@@ -86,4 +95,8 @@ body {
   text-align: center;
   font-size: 12px;
   color: var(--gray);
+  line-height: 1.2;
+}
+.img-own a {
+  display: block;
 }

@@ -6,7 +6,7 @@
   position: fixed;
   right: var(--horizontal-padding);
   bottom: calc(54px + var(--horizontal-padding));
-  color: var(--magenta);
+  color: var(--peach);
 }
 
 .sign-out span {

@@ -3,8 +3,8 @@
   justify-content: center;
   align-items: center;
   font-size: 80px;
-  color: var(--cheet-brown);
-  background-color: var(--yellow);
+  color: var(--black);
+  background-color: var(--white);
   position: absolute;
   top: 0;
   left: 0;
@@ -16,7 +16,6 @@
 }
 
 .splash-screen img {
-  width: 450px;
 }
 
 @keyframes hideSplashScreen {
