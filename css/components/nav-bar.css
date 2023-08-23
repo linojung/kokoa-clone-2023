@@ -4,8 +4,8 @@
   bottom: 0;
   height: 55px;
   width: 100%;
-  background-color: var(--very-light-gray);
-  border-top: 1px solid var(--light-gray);
+  background-color: var(--light-peach);
+  /* border-top: 1px solid var(--light-gray); */
 }
 .nav__list {
   display: flex;

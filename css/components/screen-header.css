@@ -16,6 +16,10 @@
   margin-left: 20px;
 }
 
+.log-out {
+  color: var(--peach);
+}
+
 @keyframes spiningCog {
   from {
     transform: none;

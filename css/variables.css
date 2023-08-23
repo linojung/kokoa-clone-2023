@@ -1,10 +1,12 @@
 :root {
   /*colors*/
-  --yellow: #fdd344;
+  --yellow: rgb(248, 192, 76);
   --peach: rgb(254, 131, 132);
-  --red: tomato;
+  --light-peach: #feeff1;
+  --red: rgb(250, 96, 96);
   --pink: #ff63c3;
   --blue: rgb(33, 168, 213);
+  --beige: rgba(247, 233, 228, 0.5);
   --black: rgb(13, 34, 52);
   --gray: rgba(13, 34, 52, 0.5);
   --dark-gray: rgba(13, 34, 52, 0.7);
@@ -15,7 +17,7 @@
   --white: #fefcfe;
   --light-white: rgba(255, 255, 255, 0.8);
   --z-white: rgba(255, 255, 255, 0.1);
-  --chatroom-color: rgba(219, 184, 206);
+  --chatroom-color: #a2d0df;
   /*sizes*/
   --horizontal-padding: 20px;
   --chatroom-padding: 12px;

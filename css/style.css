@@ -23,7 +23,6 @@
   box-sizing: border-box;
 }
 body {
-  min-height: calc(100vh + 45px + var(--horizontal-padding));
   position: relative;
   font-family: "Outfit", sans-serif;
   padding-top: 22px;

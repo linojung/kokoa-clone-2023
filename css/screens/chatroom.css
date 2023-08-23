@@ -4,7 +4,7 @@
 }
 #chatroom-body {
   padding-top: 82px;
-  height: 300vh;
+  height: 110vh;
   padding-bottom: 0;
   background-color: var(--chatroom-color);
 }
@@ -257,7 +257,7 @@
 }
 .reply:focus-within .reply__column--text {
   width: 100%;
-  border: 1px solid var(--yellow);
+  border: 1px solid var(--peach);
 }
 .reply:focus-within .reply__column--text input {
   height: 100%;
