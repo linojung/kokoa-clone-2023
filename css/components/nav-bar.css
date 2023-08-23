@@ -24,7 +24,7 @@
     transform: none;
   }
   50% {
-    transform: translateY(-4px);
+    transform: translateY(-4px) rotateY(180deg);
   }
   100% {
     transform: none;

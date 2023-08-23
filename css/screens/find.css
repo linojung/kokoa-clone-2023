@@ -39,7 +39,7 @@
   background-color: rgba(0, 0, 0, 0.5);
   bottom: 4px;
   right: 4px;
-  color: #fff;
+  color: var(--white);
   border-radius: 8px;
   height: 20px;
   padding: 0 8px;
@@ -50,7 +50,7 @@
 @keyframes heartBeat {
   0% {
     transform: none;
-    color: #fff;
+    color: var(--white);
   }
   50% {
     transform: scale(1.4);
@@ -58,7 +58,7 @@
   }
   100% {
     transform: none;
-    color: #fff;
+    color: var(--white);
   }
 }
 .open-post__pic:hover .open-post__pic__like-count i {

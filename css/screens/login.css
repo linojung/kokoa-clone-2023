@@ -49,7 +49,7 @@ body {
 }
 
 #login-form input {
-  background-color: #fff;
+  background-color: var(--white);
   border-radius: 5px;
   margin-bottom: 10px;
   border: none;
@@ -76,7 +76,7 @@ body {
   margin: 38px 0 20px 0;
   background-color: var(--peach);
   cursor: pointer;
-  color: #fff;
+  color: var(--white);
   border-radius: 5px;
 }
 

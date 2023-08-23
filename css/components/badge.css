@@ -3,7 +3,7 @@
   text-align: center;
   font-size: 10px;
   line-height: 18px;
-  color: #fff;
+  color: var(--white);
   background-color: var(--red);
   min-width: 18px;
   height: 18px;
