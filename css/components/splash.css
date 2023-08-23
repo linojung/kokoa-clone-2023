@@ -16,6 +16,7 @@
 }
 
 .splash-screen img {
+  width: 210px;
 }
 
 @keyframes hideSplashScreen {
