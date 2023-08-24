@@ -132,6 +132,7 @@
   max-width: 60vw;
   font-size: 15px;
   line-height: 1.2;
+  overflow: hidden;
 }
 
 .message-row--own .message__bubble {
@@ -165,6 +166,106 @@
   color: var(--yellow);
 }
 
+.message__bubble__gift {
+  padding: 0;
+  background-color: var(--blue);
+}
+
+.message__bubble__gift {
+}
+.gift__card {
+  padding: 20px 12px;
+}
+
+.gift__card__wrap {
+  border-radius: 9px;
+  overflow: hidden;
+  background-color: var(--white);
+  box-shadow: 0px 39px 15px -45px rgba(0, 0, 0, 0.74);
+}
+
+.gift__card__img {
+}
+
+.gift__card__img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.gift__card__info {
+  padding: 9px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gift__card__info__img {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+.gift__card__info__img img {
+  width: 100%;
+}
+
+.gift__card__info__title {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px - 9px);
+}
+
+.gift__card__info__brand {
+  color: var(--gray);
+  font-size: 14px;
+}
+
+.gift__card__info__name {
+  font-weight: 600;
+}
+
+.gift__btns {
+  background-color: var(--white);
+  padding: 0 9px;
+}
+
+.gift__btns > * {
+  display: block;
+  font-size: 14px;
+}
+.gift__text {
+  line-height: 1.2;
+  padding: 12px 0 9px 0;
+}
+.gift__btn {
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  background-color: var(--message-gray);
+  border-radius: 9px;
+  margin-top: 4px;
+}
+
+.gift__shop {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  font-size: 12px;
+  padding: 12px 0;
+}
+.gift__shop .fa-gift {
+  color: var(--yellow);
+}
+
+.gift__shop__text {
+  width: calc(100% - 12px);
+  color: var(--gray);
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .reply {
   position: fixed;
   bottom: 0;
@@ -222,7 +323,7 @@
   margin: 0 var(--chatroom-padding) 0 10px;
 }
 
-.reply__send {
+ {
   border: none;
   background-color: var(--peach);
   color: var(--white);
