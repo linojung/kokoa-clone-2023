@@ -3,6 +3,10 @@
   margin-top: 20px;
   padding-top: 20px;
 }
+
+.setting-list i {
+  color: var(--gray);
+}
 .setting-list:first-child {
   border-top: none;
   margin-top: 0;

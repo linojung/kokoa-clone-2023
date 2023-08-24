@@ -7,10 +7,15 @@
 }
 
 .screen-header__title {
+  text-transform: uppercase;
   font-size: 25px;
   font-weight: 600;
   color: var(--peach);
   font-family: var(--hand-writing);
+}
+
+.screen-header__icon {
+  font-size: 17px;
 }
 
 .screen-header__icons span {
@@ -30,8 +35,24 @@
   }
 }
 
+@keyframes hoverSearch {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(-40deg);
+  }
+  100 {
+    transform: none;
+  }
+}
+
 .screen-header .fa-cog:hover {
-  animation: spiningCog 1s ease-in-out infinite;
+  animation: spiningCog 1.3s linear infinite;
+}
+
+.screen-header .fa-search:hover {
+  animation: hoverSearch 1s ease-in-out infinite;
 }
 
 /*alternative header*/
@@ -42,6 +63,7 @@
   align-items: center;
   height: 60px;
   padding: 0 var(--horizontal-padding);
+  color: var(--peach);
 }
 .alt-header__column {
   flex-grow: 1;
