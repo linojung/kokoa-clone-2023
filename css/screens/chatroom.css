@@ -1,10 +1,9 @@
 .main-screen.chatroom-screen {
-  padding: 0 var(--chatroom-padding);
+  padding: 0 var(--chatroom-padding) 80px 0;
   overflow: hidden;
 }
 #chatroom-body {
   padding-top: 82px;
-  height: 110vh;
   padding-bottom: 0;
   background-color: var(--chatroom-color);
 }
