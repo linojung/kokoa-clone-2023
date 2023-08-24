@@ -323,7 +323,7 @@
   margin: 0 var(--chatroom-padding) 0 10px;
 }
 
- {
+.reply__send {
   border: none;
   background-color: var(--peach);
   color: var(--white);
