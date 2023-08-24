@@ -90,6 +90,7 @@ body {
 .img-own {
   padding: 0 var(--horizontal-padding);
   position: fixed;
+  z-index: -1;
   bottom: var(--horizontal-padding);
   width: 100%;
   text-align: center;
