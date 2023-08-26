@@ -184,10 +184,13 @@
 }
 
 .gift__card__img {
+  width: 100%;
+  height: 30vw;
 }
 
 .gift__card__img img {
-  width: 100%;
+  width: inherit;
+  height: inherit;
   object-fit: cover;
 }
 
